@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableDynamoDBRepositories(basePackages = "com.easy2excel.springbootawsdynamodbcrud.repository")
+@EnableDynamoDBRepositories(basePackages = "com.renanmonteiro.crud_products_dynamodb.repository")
 public class DynamoDBConfig {
 
     @Value("${amazon.dynamodb.endpoint}")
